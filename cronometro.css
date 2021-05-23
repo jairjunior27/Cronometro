@@ -1,0 +1,63 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.container{
+   position: absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+  
+}
+
+.cronometro{
+   
+   text-align: center;
+   flex-wrap: wrap;
+   
+}
+
+h1{
+    color: rgb(2, 2, 170);
+    font-size: 2.7rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+.iniciar{
+    background:rgb(0, 255, 34);
+    padding: .5rem 3rem;
+border-radius: 1rem;
+box-shadow: -4px 5px 5px black;
+margin: .4rem; 
+cursor: pointer;
+}
+.pausar{
+    background: rgb(255, 238, 0);
+    padding: .5rem 3rem;
+border-radius: 1rem;
+box-shadow: -4px 5px 5px black;
+margin: .4rem;
+cursor: pointer;
+}
+.parar{
+    background: red;
+    padding: .5rem 3rem;
+    border-radius: 1rem;
+    box-shadow: -4px 5px 5px black;
+    margin: .4rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    cursor: pointer;
+}
+img{
+    width: 15vw;
+   
+}
+button{
+    outline: hidden;
+}
